@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{BE6597E1-E38E-4A66-883C-96F2B2394960}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BeverageTracker/Services/BeverageTestDataService.cs">
+    <Files>
+      <File FileName="BeverageTracker/ViewModel/AddBeverageViewModel.cs" Line="19" Column="23" />
+      <File FileName="BeverageTracker/Controls/BindablePicker.cs" Line="52" Column="1" />
+      <File FileName="iOS/Main.cs" Line="22" Column="1" />
+      <File FileName="BeverageTracker/BeverageTrackerPage.xaml.cs" Line="13" Column="1" />
+      <File FileName="BeverageTracker/ViewModel/BeverageTrackerViewModel.cs" Line="26" Column="42" />
+      <File FileName="BeverageTracker/Services/BeverageTestDataService.cs" Line="22" Column="1" />
+      <File FileName="BeverageTracker/AddBeveragePage.xaml.cs" Line="13" Column="30" />
+      <File FileName="BeverageTracker/Services/ServiceLocator.cs" Line="10" Column="1" />
+      <File FileName="BeverageTracker/Services/BeverageTestBusinessLogicService.cs" Line="26" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.BeverageTracker.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8D580479-D7B9-45AC-B19D-BB18D2BADAE5" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BeverageTracker.Droid PreferredExecutionTarget="Android.Nexus 7 (Marshmallow)" />
+  <MonoDevelop.Ide.ItemProperties.BeverageTracker.UITests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

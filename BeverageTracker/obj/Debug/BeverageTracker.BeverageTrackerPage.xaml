@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:BeverageTracker" x:Class="BeverageTracker.BeverageTrackerPage">
+	<Grid Margin="10,0">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="30"/>
+			<RowDefinition />
+			<RowDefinition Height="30" />
+		</Grid.RowDefinitions>
+		<Label Grid.Row="0" Text="Beverage Tracker 5000" HorizontalOptions="Center" />
+		<ListView Grid.Row="1" ItemsSource="{Binding Events}" IsGroupingEnabled="true" GroupDisplayBinding="{Binding Name}" 
+				GroupShortNameBinding="{Binding ShortName}">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<Grid Margin="10,0">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition />
+								<ColumnDefinition />
+							</Grid.ColumnDefinitions>
+							<Label Text="{Binding BeverageType.Name}" />
+							<Label Grid.Column="1" Text ="{Binding DrinkingDate, StringFormat='{}{0:h:mm tt}'}" />
+						</Grid>
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+		<Button Grid.Row="2" Text="Add Beverage" Command="{Binding AddEventCommand}" />
+	</Grid>
+</ContentPage>
